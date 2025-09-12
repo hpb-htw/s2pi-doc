@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['seitenrissprojekt_35',['seitenrissProjekt',['../tools_8asy.html#a4939493413b4942af84675f62d80bb61',1,'tools.asy']]]
+  ['odot_51',['odot',['../tools_8asy.html#a0110024787bff9477cfc71f4964f7e0e',1,'odot(picture pic=currentpicture, triple v, material p=currentpen, light light=nolight, string name=&quot;&quot;, render render=defaultrender):&#160;tools.asy'],['../tools_8asy.html#afa8b14a216f49a8c8562d06136aa97a7',1,'odot(picture pic=currentpicture, Label L, triple v, align align=NoAlign, string format=defaultformat, material p=currentpen, light light=nolight, string name=&quot;&quot;, render render=defaultrender):&#160;tools.asy']]],
+  ['operator_20init_52',['operator init',['../structThreeDistance.html#a322201932c3b09cb7c94b7099c0f4a48',1,'ThreeDistance::operator init()'],['../structContourCurve.html#ac6bcb0922c39dbfbb5645d5d8b8e99d1',1,'ContourCurve::operator init(guide3 curve, pair[] offset={}, real width=1)'],['../structContourCurve.html#a7202180d18fcbfd08a091e2c566fb263',1,'ContourCurve::operator init(guide3 curve, real offsetStart, real offsetStop, real width=1)'],['../structContourCurve.html#a9ed74aa302faf3db0feee26cfdfec593',1,'ContourCurve::operator init(guide3 curve, pair offset, real width=1)']]]
 ];

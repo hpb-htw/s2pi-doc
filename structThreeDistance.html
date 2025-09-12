@@ -13,6 +13,13 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="customdoxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -65,8 +72,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="structThreeDistance-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
 <div class="title">ThreeDistance Struct Reference</div>  </div>
 </div><!--header-->
@@ -76,12 +82,11 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a322201932c3b09cb7c94b7099c0f4a48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreeDistance.html#a322201932c3b09cb7c94b7099c0f4a48">operator init</a> (triple <a class="el" href="structThreeDistance.html#aa1ae215a8d11c45735d70c547a0d2ae1">startPoint</a>, triple <a class="el" href="structThreeDistance.html#ae798d1b6a95ce399ff1dbe32c8fee8b8">stopPoint</a>, real <a class="el" href="structThreeDistance.html#a0e33b123a8c00d254ff94f413357e581">distance</a>, real <a class="el" href="structThreeDistance.html#a77e00f92bdd20eff52e23efb84c94349">extend</a>, triple <a class="el" href="structThreeDistance.html#aeefc868314f8a0fd67e0db6060577b48">normal</a>=Z, Label <a class="el" href="structThreeDistance.html#a966bcf8efd5021fde365382e4963c659">l</a>, real <a class="el" href="structThreeDistance.html#aa4ea994451a7d15781385aa304cdbff1">labelPosition</a>=0.5)</td></tr>
 <tr class="separator:a322201932c3b09cb7c94b7099c0f4a48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8074fa8bd2b15d90d67d613fa64d5a0"><td class="memItemLeft" align="right" valign="top"><a id="af8074fa8bd2b15d90d67d613fa64d5a0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>draw</b> (picture pic=currentpicture, pen linep=<a class="el" href="tools_8asy.html#a31dc478febe702c9f6c19c3f2658f076">measureLine</a>, pen labelp=<a class="el" href="tools_8asy.html#afca886c5cd738a5f09536b664d74bbba">measureLabel</a>)</td></tr>
+<tr class="memitem:af8074fa8bd2b15d90d67d613fa64d5a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreeDistance.html#af8074fa8bd2b15d90d67d613fa64d5a0">draw</a> (picture pic=currentpicture, pen linep=<a class="el" href="tools_8asy.html#a31dc478febe702c9f6c19c3f2658f076">measureLine</a>, pen labelp=<a class="el" href="tools_8asy.html#afca886c5cd738a5f09536b664d74bbba">measureLabel</a>)</td></tr>
 <tr class="separator:af8074fa8bd2b15d90d67d613fa64d5a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
+Data Fields</h2></td></tr>
 <tr class="memitem:aa1ae215a8d11c45735d70c547a0d2ae1"><td class="memItemLeft" align="right" valign="top">triple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreeDistance.html#aa1ae215a8d11c45735d70c547a0d2ae1">startPoint</a></td></tr>
 <tr class="separator:aa1ae215a8d11c45735d70c547a0d2ae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae798d1b6a95ce399ff1dbe32c8fee8b8"><td class="memItemLeft" align="right" valign="top">triple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreeDistance.html#ae798d1b6a95ce399ff1dbe32c8fee8b8">stopPoint</a></td></tr>
@@ -96,13 +101,11 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a966bcf8efd5021fde365382e4963c659"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4ea994451a7d15781385aa304cdbff1"><td class="memItemLeft" align="right" valign="top">real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreeDistance.html#aa4ea994451a7d15781385aa304cdbff1">labelPosition</a></td></tr>
 <tr class="separator:aa4ea994451a7d15781385aa304cdbff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf098c7886b17695eeb14b8d0ba9e758"><td class="memItemLeft" align="right" valign="top"><a id="aaf098c7886b17695eeb14b8d0ba9e758"></a>
-triple&#160;</td><td class="memItemRight" valign="bottom"><b>direction</b></td></tr>
+<tr class="memitem:aaf098c7886b17695eeb14b8d0ba9e758"><td class="memItemLeft" align="right" valign="top">triple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreeDistance.html#aaf098c7886b17695eeb14b8d0ba9e758">direction</a></td></tr>
 <tr class="separator:aaf098c7886b17695eeb14b8d0ba9e758"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d293f21a327870f230d19978b96d0af"><td class="memItemLeft" align="right" valign="top">triple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreeDistance.html#a0d293f21a327870f230d19978b96d0af">m1</a></td></tr>
 <tr class="separator:a0d293f21a327870f230d19978b96d0af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4db04073aa82ea43fb866fbc109f9027"><td class="memItemLeft" align="right" valign="top"><a id="a4db04073aa82ea43fb866fbc109f9027"></a>
-triple&#160;</td><td class="memItemRight" valign="bottom"><b>m2</b></td></tr>
+<tr class="memitem:a4db04073aa82ea43fb866fbc109f9027"><td class="memItemLeft" align="right" valign="top">triple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreeDistance.html#a4db04073aa82ea43fb866fbc109f9027">m2</a></td></tr>
 <tr class="separator:a4db04073aa82ea43fb866fbc109f9027"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9538640019b31826cca967ee012acaea"><td class="memItemLeft" align="right" valign="top">triple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreeDistance.html#a9538640019b31826cca967ee012acaea">firstMark</a></td></tr>
 <tr class="separator:a9538640019b31826cca967ee012acaea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -111,7 +114,54 @@ triple&#160;</td><td class="memItemRight" valign="bottom"><b>m2</b></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>represents distance measurement in 3D. </p>
+
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00196">196</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="af8074fa8bd2b15d90d67d613fa64d5a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8074fa8bd2b15d90d67d613fa64d5a0">&#9670;&nbsp;</a></span>draw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ThreeDistance::draw </td>
+          <td>(</td>
+          <td class="paramtype">picture&#160;</td>
+          <td class="paramname"><em>pic</em> = <code>currentpicture</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">pen&#160;</td>
+          <td class="paramname"><em>linep</em> = <code><a class="el" href="tools_8asy.html#a31dc478febe702c9f6c19c3f2658f076">measureLine</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">pen&#160;</td>
+          <td class="paramname"><em>labelp</em> = <code><a class="el" href="tools_8asy.html#afca886c5cd738a5f09536b664d74bbba">measureLabel</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>draws this ThreeMark on a picture. </p>
+
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00292">292</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+
+</div>
+</div>
 <a id="a322201932c3b09cb7c94b7099c0f4a48"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a322201932c3b09cb7c94b7099c0f4a48">&#9670;&nbsp;</a></span>operator init()</h2>
 
@@ -175,11 +225,30 @@ triple&#160;</td><td class="memItemRight" valign="bottom"><b>m2</b></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>internal constructor, DONOT use this. use <code>newThreeDistance()</code> </p>
+<p>create an instance of ThreeMark, but not shows it on the drawing. </p>
+
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00264">264</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
+<h2 class="groupheader">Field Documentation</h2>
+<a id="aaf098c7886b17695eeb14b8d0ba9e758"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf098c7886b17695eeb14b8d0ba9e758">&#9670;&nbsp;</a></span>direction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">triple ThreeDistance::direction</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>ggggg </p>
+
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00237">237</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+
+</div>
+</div>
 <a id="a0e33b123a8c00d254ff94f413357e581"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0e33b123a8c00d254ff94f413357e581">&#9670;&nbsp;</a></span>distance</h2>
 
@@ -191,7 +260,9 @@ triple&#160;</td><td class="memItemRight" valign="bottom"><b>m2</b></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>distence from measurement line to line startPoint &ndash; stopPoint </p>
+<p>distence from measurement line to line <code>startPoint -- stopPoint</code> </p>
+
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00216">216</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -208,6 +279,8 @@ triple&#160;</td><td class="memItemRight" valign="bottom"><b>m2</b></td></tr>
 </div><div class="memdoc">
 <p>factor of distance from measure line to (startPoint &ndash; stopPoint), used to calculate the length of measure Lateral </p>
 
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00222">222</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+
 </div>
 </div>
 <a id="a9538640019b31826cca967ee012acaea"></a>
@@ -221,7 +294,9 @@ triple&#160;</td><td class="memItemRight" valign="bottom"><b>m2</b></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>extension of (startPoint &ndash; m1). </p>
+<p>extension of <code>(startPoint -- m1)</code>. </p>
+
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00254">254</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -238,6 +313,8 @@ triple&#160;</td><td class="memItemRight" valign="bottom"><b>m2</b></td></tr>
 </div><div class="memdoc">
 <p>label </p>
 
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00227">227</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+
 </div>
 </div>
 <a id="aa4ea994451a7d15781385aa304cdbff1"></a>
@@ -253,6 +330,8 @@ triple&#160;</td><td class="memItemRight" valign="bottom"><b>m2</b></td></tr>
 </div><div class="memdoc">
 <p>label position along the measurement line (from 0 to 1) </p>
 
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00232">232</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+
 </div>
 </div>
 <a id="a0d293f21a327870f230d19978b96d0af"></a>
@@ -266,7 +345,26 @@ triple&#160;</td><td class="memItemRight" valign="bottom"><b>m2</b></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>m1 and m2 are two endpoints of the measure arrow; (m1 &ndash; m2) is paralle to (startPoint &ndash; stopPoint). Both (startPoint &ndash; m1) and (stopPoint &ndash; m2) are perpendicular to (startPoint &ndash; stopPoint); </p>
+<p>m1 and m2 are two endpoints of the measure arrow; <code>(m1 -- m2)</code> is paralle to <code>(startPoint -- stopPoint)</code>. Both <code>(startPoint -- m1)</code> and <code>(stopPoint -- m2)</code> are perpendicular to <code>(startPoint -- stopPoint)</code>; </p>
+
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00244">244</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+
+</div>
+</div>
+<a id="a4db04073aa82ea43fb866fbc109f9027"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4db04073aa82ea43fb866fbc109f9027">&#9670;&nbsp;</a></span>m2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">triple ThreeDistance::m2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structThreeDistance.html#a0d293f21a327870f230d19978b96d0af">m1</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00249">249</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -283,6 +381,8 @@ triple&#160;</td><td class="memItemRight" valign="bottom"><b>m2</b></td></tr>
 </div><div class="memdoc">
 <p>normal vector </p>
 
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00211">211</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+
 </div>
 </div>
 <a id="a742e9f179b7da44cdab0c020ec6426b7"></a>
@@ -296,7 +396,9 @@ triple&#160;</td><td class="memItemRight" valign="bottom"><b>m2</b></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>extension of (endPoint &ndash; m2). </p>
+<p>extension of <code>(endPoint -- m2)</code>. </p>
+
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00259">259</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -313,6 +415,8 @@ triple&#160;</td><td class="memItemRight" valign="bottom"><b>m2</b></td></tr>
 </div><div class="memdoc">
 <p>start point </p>
 
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00201">201</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+
 </div>
 </div>
 <a id="ae798d1b6a95ce399ff1dbe32c8fee8b8"></a>
@@ -328,10 +432,12 @@ triple&#160;</td><td class="memItemRight" valign="bottom"><b>m2</b></td></tr>
 </div><div class="memdoc">
 <p>end point </p>
 
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00206">206</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>s2pi/<a class="el" href="tools_8asy.html">tools.asy</a></li>
+<li>s2pi/<a class="el" href="tools_8asy_source.html">tools.asy</a></li>
 </ul>
 </div><!-- contents -->
 <!-- HTML footer for doxygen 1.9.1-->
