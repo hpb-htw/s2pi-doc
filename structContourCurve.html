@@ -138,9 +138,15 @@ Data Fields</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>draw the curve as regular curve </p>
+<p>draws the curve as regular curve. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">corePen</td><td>pen to draw this curve </td></tr>
+    <tr><td class="paramname">arrowPosition</td><td>position of the arrow, this parameter is used as argument <code>position</code> in <code>Arrow3(DedaultHead2(), position)</code> to draw arrow of this curve. if arrowPosition is negeativ, it is ignored. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00360">360</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00369">369</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -183,9 +189,20 @@ Data Fields</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>draws the curve as if it is over others lines </p>
+<p>draws the curve as if it is over others lines. This method works as following:</p>
+<p>Firstly it draws cover-paths as <a class="el" href="structContourCurve.html#a233e454d77799dba1b1611ef323ed23b">curve</a> defines, but wider than corePen's width. The color of cover-paths is same background color of currentpicture. Each segment of <a class="el" href="structContourCurve.html#a233e454d77799dba1b1611ef323ed23b">curve</a> is maped to a subpath (=cover-paths), which is matched the correspondent offset. Only these subpaths are drawn.</p>
+<p>Then it draws an other path as <a class="el" href="structContourCurve.html#a233e454d77799dba1b1611ef323ed23b">curve</a> defines, with the given pen <code>corePen</code>. This creates a optical illusition, as if this curve is drawn over other curve.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">corePen</td><td>pen to draw this curve </td></tr>
+    <tr><td class="paramname">light</td><td>is used to determine background color for this line, which cover other lines </td></tr>
+    <tr><td class="paramname">arrowPosition</td><td>is used as the same way in <a class="el" href="structContourCurve.html#aac3fd28d52f2e02fde06f728f75e2fe1">draw</a></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structContourCurve.html#a411291582dbd8cc227a940e1bcf462ab">offset</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00375">375</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00399">399</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -230,7 +247,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <p>creates a curve with given offset of each segment of the curve. </p>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00351">351</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00356">356</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -275,7 +292,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <p>creates a curve with given offset of each segment of the curve. </p>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00332">332</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00337">337</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -326,7 +343,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <p>creates a curve with given offset of each segment of the curve. </p>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00341">341</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00346">346</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -359,9 +376,11 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>fragments on the curve, which have background. </p>
+<p>fragments on the curve, which have background. Mis-using <code>pair</code> as a tupel-datastructure.</p>
+<p>Each element of <code>offset</code> is correspondent to a subpath in cover-paths.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structContourCurve.html#a520a7980daf4e3ed66f2dc2f97d4ae08">drawFront</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00321">321</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00326">326</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -378,7 +397,7 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <p>factor (&gt;1.0) to expand the with of background cuve. </p>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00326">326</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00331">331</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
