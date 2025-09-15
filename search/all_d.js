@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['three_36',['three',['../tools_8asy.html#a988b07a62aba9d88b760606331ec7dcd',1,'tools.asy']]],
-  ['threedistance_37',['ThreeDistance',['../structThreeDistance.html',1,'']]],
-  ['tools_2easy_38',['tools.asy',['../tools_8asy.html',1,'']]]
+  ['plani_2easy_37',['plani.asy',['../plani_8asy.html',1,'']]],
+  ['projektionfn_38',['projektionFn',['../structProjektionStrahl.html#aa89636096b2f8e3fa064b221baae1cec',1,'ProjektionStrahl']]],
+  ['projektionstrahl_39',['ProjektionStrahl',['../structProjektionStrahl.html',1,'']]]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['mapguides_49',['mapGuides',['../tools_8asy.html#a700c40a0194bad9da0a85b8a94bcfd07',1,'tools.asy']]],
-  ['mapnodes_50',['mapNodes',['../tools_8asy.html#afe0d90382e4640c9144b4b9456a60c66',1,'tools.asy']]]
+  ['kote_68',['kote',['../tools_8asy.html#a7a03cf8f84a47ad48de9754ac359750f',1,'tools.asy']]]
 ];

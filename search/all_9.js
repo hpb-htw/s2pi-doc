@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['normal_24',['normal',['../structThreeDistance.html#aeefc868314f8a0fd67e0db6060577b48',1,'ThreeDistance']]]
+  ['l_20',['l',['../structThreeDistance.html#a966bcf8efd5021fde365382e4963c659',1,'ThreeDistance']]],
+  ['labelposition_21',['labelPosition',['../structThreeDistance.html#aa4ea994451a7d15781385aa304cdbff1',1,'ThreeDistance']]]
 ];

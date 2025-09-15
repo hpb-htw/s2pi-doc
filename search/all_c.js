@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['secondmark_30',['secondMark',['../structThreeDistance.html#a742e9f179b7da44cdab0c020ec6426b7',1,'ThreeDistance']]],
-  ['seitenrissprojektion_31',['seitenrissProjektion',['../tools_8asy.html#ab5b4ee2fafa896d294e41390f4fd01ac',1,'seitenrissProjektion(guide3 g):&#160;tools.asy'],['../tools_8asy.html#abcdb542368d1edec482615a22c6bbbd0',1,'seitenrissProjektion(guide3[] g):&#160;tools.asy']]],
-  ['shortcut_2etex_32',['shortcut.tex',['../shortcut_8tex.html',1,'']]],
-  ['showcoordinate_33',['showCoordinate',['../tools_8asy.html#a0f14c74f3747c817faa5cde84a259482',1,'tools.asy']]],
-  ['startpoint_34',['startPoint',['../structThreeDistance.html#aa1ae215a8d11c45735d70c547a0d2ae1',1,'ThreeDistance']]],
-  ['stoppoint_35',['stopPoint',['../structThreeDistance.html#ae798d1b6a95ce399ff1dbe32c8fee8b8',1,'ThreeDistance']]]
+  ['odot_32',['odot',['../tools_8asy.html#a0110024787bff9477cfc71f4964f7e0e',1,'odot(picture pic=currentpicture, triple v, material p=currentpen, light light=nolight, string name=&quot;&quot;, render render=defaultrender):&#160;tools.asy'],['../tools_8asy.html#afa8b14a216f49a8c8562d06136aa97a7',1,'odot(picture pic=currentpicture, Label L, triple v, align align=NoAlign, string format=defaultformat, material p=currentpen, light light=nolight, string name=&quot;&quot;, render render=defaultrender):&#160;tools.asy']]],
+  ['offset_33',['offset',['../structContourCurve.html#a411291582dbd8cc227a940e1bcf462ab',1,'ContourCurve']]],
+  ['operator_20init_34',['operator init',['../structThreeDistance.html#a322201932c3b09cb7c94b7099c0f4a48',1,'ThreeDistance::operator init()'],['../structContourCurve.html#ac6bcb0922c39dbfbb5645d5d8b8e99d1',1,'ContourCurve::operator init(guide3 curve, pair[] offset={}, real width=1)'],['../structContourCurve.html#a7202180d18fcbfd08a091e2c566fb263',1,'ContourCurve::operator init(guide3 curve, real offsetStart, real offsetStop, real width=1)'],['../structContourCurve.html#a9ed74aa302faf3db0feee26cfdfec593',1,'ContourCurve::operator init(guide3 curve, pair offset, real width=1)'],['../structSegmentedStrahl.html#a9ed307c60bc53cf332a8845ff3677905',1,'SegmentedStrahl::operator init()'],['../structProjektionStrahl.html#a74a768cac78d6b7ca455bb8ed813860e',1,'ProjektionStrahl::operator init()']]],
+  ['ordinate_35',['ordinate',['../tools_8asy.html#a9c32f80edf76c6adba96b545f860533d',1,'tools.asy']]],
+  ['outlinecontour_36',['outlineContour',['../tools_8asy.html#adc090f5cf9f1c0e03e0cf8f67b2fa5d6',1,'tools.asy']]]
 ];

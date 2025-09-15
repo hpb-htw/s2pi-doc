@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tools_2easy_44',['tools.asy',['../tools_8asy.html',1,'']]]
+  ['shortcut_2etex_59',['shortcut.tex',['../shortcut_8tex.html',1,'']]]
 ];

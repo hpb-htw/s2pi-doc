@@ -92,6 +92,10 @@ Data Structures</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structContourCurve.html">ContourCurve</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSegmentedStrahl.html">SegmentedStrahl</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProjektionStrahl.html">ProjektionStrahl</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -102,12 +106,26 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a216c5bc1526af5a16383662f88881ecf"><td class="memItemLeft" align="right" valign="top">triple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8asy.html#a216c5bc1526af5a16383662f88881ecf">makeCameraPostion</a> (real altitude, real azimuth, real distance)</td></tr>
+<tr class="separator:a216c5bc1526af5a16383662f88881ecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0110024787bff9477cfc71f4964f7e0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8asy.html#a0110024787bff9477cfc71f4964f7e0e">odot</a> (picture pic=currentpicture, triple v, material p=currentpen, light light=nolight, string name=&quot;&quot;, render render=defaultrender)</td></tr>
 <tr class="separator:a0110024787bff9477cfc71f4964f7e0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa8b14a216f49a8c8562d06136aa97a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8asy.html#afa8b14a216f49a8c8562d06136aa97a7">odot</a> (picture pic=currentpicture, Label L, triple v, align align=NoAlign, string format=defaultformat, material p=currentpen, light light=nolight, string name=&quot;&quot;, render render=defaultrender)</td></tr>
 <tr class="separator:afa8b14a216f49a8c8562d06136aa97a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f14c74f3747c817faa5cde84a259482"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8asy.html#a0f14c74f3747c817faa5cde84a259482">showCoordinate</a> (string origin=&quot;&quot;, align o=N, align x=NW, align y=N, align z=E)</td></tr>
 <tr class="separator:a0f14c74f3747c817faa5cde84a259482"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb4b1602b849f0c7bbc67f5398116ffb"><td class="memItemLeft" align="right" valign="top">triple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8asy.html#abb4b1602b849f0c7bbc67f5398116ffb">grundriss</a> (triple node)</td></tr>
+<tr class="separator:abb4b1602b849f0c7bbc67f5398116ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae30b6cdcb75ce3b7415eb308c10a7a8f"><td class="memItemLeft" align="right" valign="top">triple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8asy.html#ae30b6cdcb75ce3b7415eb308c10a7a8f">aufriss</a> (triple node)</td></tr>
+<tr class="separator:ae30b6cdcb75ce3b7415eb308c10a7a8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80db7243a22b9f38286beec45d0ac0e3"><td class="memItemLeft" align="right" valign="top">triple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8asy.html#a80db7243a22b9f38286beec45d0ac0e3">seitenriss</a> (triple node)</td></tr>
+<tr class="separator:a80db7243a22b9f38286beec45d0ac0e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a551b6701401b2ed6e0374f63efcacb6e"><td class="memItemLeft" align="right" valign="top">triple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8asy.html#a551b6701401b2ed6e0374f63efcacb6e">abszisse</a> (triple node)</td></tr>
+<tr class="separator:a551b6701401b2ed6e0374f63efcacb6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c32f80edf76c6adba96b545f860533d"><td class="memItemLeft" align="right" valign="top">triple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8asy.html#a9c32f80edf76c6adba96b545f860533d">ordinate</a> (triple node)</td></tr>
+<tr class="separator:a9c32f80edf76c6adba96b545f860533d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a03cf8f84a47ad48de9754ac359750f"><td class="memItemLeft" align="right" valign="top">triple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8asy.html#a7a03cf8f84a47ad48de9754ac359750f">kote</a> (triple node)</td></tr>
+<tr class="separator:a7a03cf8f84a47ad48de9754ac359750f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe0d90382e4640c9144b4b9456a60c66"><td class="memItemLeft" align="right" valign="top">private guide3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8asy.html#afe0d90382e4640c9144b4b9456a60c66">mapNodes</a> (guide3 g, <a class="el" href="tools_8asy.html#a67467d51a7d6d4a7143d2ff1a0909342">mapNode</a> fn)</td></tr>
 <tr class="separator:afe0d90382e4640c9144b4b9456a60c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a700c40a0194bad9da0a85b8a94bcfd07"><td class="memItemLeft" align="right" valign="top">private guide3[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8asy.html#a700c40a0194bad9da0a85b8a94bcfd07">mapGuides</a> (guide3[] g, <a class="el" href="tools_8asy.html#a9b8cff0942f69a162f2dd94fe4a688bd">mapGuide</a> fn)</td></tr>
@@ -137,6 +155,8 @@ Variables</h2></td></tr>
 <tr class="separator:afca886c5cd738a5f09536b664d74bbba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc090f5cf9f1c0e03e0cf8f67b2fa5d6"><td class="memItemLeft" align="right" valign="top">pen&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8asy.html#adc090f5cf9f1c0e03e0cf8f67b2fa5d6">outlineContour</a> = linewidth(0.3mm) + black</td></tr>
 <tr class="separator:adc090f5cf9f1c0e03e0cf8f67b2fa5d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ca3ce07d2bea6b14527019ad0aa533d"><td class="memItemLeft" align="right" valign="top">pen&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8asy.html#a5ca3ce07d2bea6b14527019ad0aa533d">hiddenContour</a> = linewidth(0.3mm) + gray</td></tr>
+<tr class="separator:a5ca3ce07d2bea6b14527019ad0aa533d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a259c1cef8d64495f5968a7ac2dd4b143"><td class="memItemLeft" align="right" valign="top">pen&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8asy.html#a259c1cef8d64495f5968a7ac2dd4b143">construction</a> = linewidth(0.15mm)</td></tr>
 <tr class="separator:a259c1cef8d64495f5968a7ac2dd4b143"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd9e989daac9be3b908866c79382951a"><td class="memItemLeft" align="right" valign="top">pen&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8asy.html#afd9e989daac9be3b908866c79382951a">coordinateAxes</a> = linewidth(0.3mm)</td></tr>
@@ -160,7 +180,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>map a guide3 to other guide3. </p>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00105">105</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00122">122</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -177,11 +197,53 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>maps a triple to other triple, result should be a new triple, the original triple should not be changed. </p>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00100">100</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00117">117</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a551b6701401b2ed6e0374f63efcacb6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a551b6701401b2ed6e0374f63efcacb6e">&#9670;&nbsp;</a></span>abszisse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">triple abszisse </td>
+          <td>(</td>
+          <td class="paramtype">triple&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>\((x, y, z) \mapsto (x, 0, 0)\) </p>
+
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00151">151</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+
+</div>
+</div>
+<a id="ae30b6cdcb75ce3b7415eb308c10a7a8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae30b6cdcb75ce3b7415eb308c10a7a8f">&#9670;&nbsp;</a></span>aufriss()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">triple aufriss </td>
+          <td>(</td>
+          <td class="paramtype">triple&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>creates the Aufriß of a point: \( (x, y, z) \mapsto (0, y, z) \) </p>
+
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00136">136</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+
+</div>
+</div>
 <a id="a739087b458b0e1466c7983e0a53bcf7e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a739087b458b0e1466c7983e0a53bcf7e">&#9670;&nbsp;</a></span>aufrissProjektion() <span class="overload">[1/2]</span></h2>
 
@@ -199,7 +261,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>maps all nodes of the guide3 g to their projection on yz-plane </p>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00164">164</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00223">223</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -219,7 +281,28 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00171">171</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00228">228</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+
+</div>
+</div>
+<a id="abb4b1602b849f0c7bbc67f5398116ffb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb4b1602b849f0c7bbc67f5398116ffb">&#9670;&nbsp;</a></span>grundriss()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">triple grundriss </td>
+          <td>(</td>
+          <td class="paramtype">triple&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>creates the Grundriss of a point: \( (x, y, z) \mapsto (x, y, 0) \) </p>
+
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00128">128</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -240,7 +323,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>maps all nodes of the guide3 g to their projection on xy-plane </p>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00148">148</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00209">209</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -260,7 +343,64 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00155">155</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00214">214</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+
+</div>
+</div>
+<a id="a7a03cf8f84a47ad48de9754ac359750f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a03cf8f84a47ad48de9754ac359750f">&#9670;&nbsp;</a></span>kote()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">triple kote </td>
+          <td>(</td>
+          <td class="paramtype">triple&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>\((x, y, z) \mapsto (0, 0, z)\) </p>
+
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00165">165</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+
+</div>
+</div>
+<a id="a216c5bc1526af5a16383662f88881ecf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a216c5bc1526af5a16383662f88881ecf">&#9670;&nbsp;</a></span>makeCameraPostion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">triple makeCameraPostion </td>
+          <td>(</td>
+          <td class="paramtype">real&#160;</td>
+          <td class="paramname"><em>altitude</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real&#160;</td>
+          <td class="paramname"><em>azimuth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real&#160;</td>
+          <td class="paramname"><em>distance</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00041">41</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -298,7 +438,7 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>new guide3 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00134">134</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00195">195</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -336,7 +476,7 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>new guide3 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00115">115</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00176">176</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -423,7 +563,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00067">67</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00084">84</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -478,7 +618,49 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>draws an open dot on picture. This function is only for internal use. </p>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00033">33</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00050">50</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+
+</div>
+</div>
+<a id="a9c32f80edf76c6adba96b545f860533d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c32f80edf76c6adba96b545f860533d">&#9670;&nbsp;</a></span>ordinate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">triple ordinate </td>
+          <td>(</td>
+          <td class="paramtype">triple&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>\((x, y, z) \mapsto (0, y, 0)\) </p>
+
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00158">158</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+
+</div>
+</div>
+<a id="a80db7243a22b9f38286beec45d0ac0e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80db7243a22b9f38286beec45d0ac0e3">&#9670;&nbsp;</a></span>seitenriss()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">triple seitenriss </td>
+          <td>(</td>
+          <td class="paramtype">triple&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>creates a the Seitenriß of a point: \( (x, y, z) \mapsto (x, 0, z) \) </p>
+
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00144">144</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -499,7 +681,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>maps all nodes of the guide3 g to their projection on xz-plane </p>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00181">181</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00238">238</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -519,7 +701,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00188">188</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00243">243</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -568,7 +750,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>draws the label X, Y, Z of coordinate axes and the origin O. </p>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00087">87</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00104">104</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -586,7 +768,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>big point </p>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00013">13</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00014">14</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -603,7 +785,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>Pen for construction line </p>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00024">24</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00029">29</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -620,6 +802,23 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>Pen for coorinate Axes axes <br  />
  </p>
+
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00031">31</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+
+</div>
+</div>
+<a id="a5ca3ce07d2bea6b14527019ad0aa533d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ca3ce07d2bea6b14527019ad0aa533d">&#9670;&nbsp;</a></span>hiddenContour</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">pen hiddenContour = linewidth(0.3mm) + gray</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Pen for hidden outline contour </p>
 
 <p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00026">26</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
@@ -638,7 +837,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>Pen for mesasure label </p>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00020">20</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00021">21</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -655,7 +854,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>Pen for mesasure line </p>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00018">18</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00019">19</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
@@ -672,7 +871,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>Pen for outline contour </p>
 
-<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00022">22</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tools_8asy_source.html#l00023">23</a> of file <a class="el" href="tools_8asy_source.html">tools.asy</a>.</p>
 
 </div>
 </div>
